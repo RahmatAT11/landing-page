@@ -1,0 +1,10 @@
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* This is for setting the background and text style */
+.dark-background {
+    background-color: #1f2937;
+}
