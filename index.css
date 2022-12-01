@@ -12,7 +12,8 @@ Nav {
 
 .menu {
     display: flex;
-    gap: 2px 2px;
+    gap: 10px 10px;
+    text-align: center;
 }
 
 .border-white{
@@ -21,6 +22,7 @@ Nav {
 
 .hero {
     display: flex;
+    gap: 10px 10px;
 }
 
 .hero-image {
@@ -84,5 +86,5 @@ Nav {
 }
 
 .px-48px {
-    padding: 0px 48px;
+    padding: 0px 128px;
 }
