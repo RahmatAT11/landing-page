@@ -5,10 +5,17 @@ Header {
 
 Nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu {
     display: flex;
+    gap: 2px 2px;
+}
+
+.border-white{
+    border: white solid 2px;
 }
 
 
@@ -33,6 +40,7 @@ Nav {
 
 .header-logo-text {
     font-size: 24px;
+    font-family: sans-serif;
 }
 
 .header-logo-text, .hero-main-text {
@@ -58,4 +66,8 @@ Nav {
     font-weight: 300;
     font-style: italic;
     color: #1f2937;
+}
+
+.px-48px {
+    padding: 0px 48px;
 }
