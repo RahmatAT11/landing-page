@@ -18,6 +18,10 @@ Nav {
     border: white solid 2px;
 }
 
+.hero {
+    display: flex;
+}
+
 
 /* This is for setting the background and text style */
 .dark-background {
