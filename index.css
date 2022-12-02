@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: roboto, sans-serif;
 }
 
 Header {
@@ -51,6 +51,10 @@ Nav {
     font-weight: 800;
     padding: 10px 30px;
     border-radius: 10px;
+}
+
+.information-content {
+    display: flex;
 }
 
 
