@@ -46,6 +46,13 @@ Nav {
     flex: 2 1 auto;
 }
 
+.btn {
+    font-size: 18px;
+    font-weight: 800;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
 
 /* This is for setting the background and text style */
 .dark-background {
