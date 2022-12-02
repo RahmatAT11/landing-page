@@ -20,9 +20,9 @@ Nav {
     text-align: center;
 }
 
-/* .border-white{
+.border-white{
     border: white solid 2px;
-} */
+}
 
 .hero {
     display: flex;
@@ -31,13 +31,19 @@ Nav {
 }
 
 .hero-image {
-    width: 600px;
-    height: auto;
-    flex: 2 1 auto;
+    object-fit: cover;
+    height: 250px;
+    width: 700px;
 }
 
 .hero-content {
     flex: 1 1 auto;
+}
+
+.hero-image-container {
+    width: 700px;
+    height: inherit;
+    flex: 2 1 auto;
 }
 
 
