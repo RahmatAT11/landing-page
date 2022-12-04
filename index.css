@@ -1,5 +1,7 @@
 body {
     font-family: roboto, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 Header {
@@ -124,6 +126,11 @@ Nav {
     padding: 48px;
 }
 
+Footer {
+    text-align: center;
+    color: white;
+    padding: 24px;
+}
 
 /* This is for setting the background and text style */
 .dark-background {
