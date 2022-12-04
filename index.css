@@ -91,6 +91,21 @@ Nav {
     border-radius: 20px;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.quote-p-1 {
+    align-self: flex-start;
+}
+
+.quote-p-2 {
+    align-self: flex-end;
+    font-size: 24px;
+}
+
 
 /* This is for setting the background and text style */
 .dark-background {
@@ -142,4 +157,12 @@ Nav {
 
 .px-48px {
     padding: 0px 128px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-bold {
+    font-weight: bold;
 }
